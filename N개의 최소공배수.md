@@ -23,4 +23,4 @@ def solution(arr):
     answer = 1
     for n in arr: answer = lcm(answer, n)    # 이 부분을 재귀로 해결하려다가 그냥 반복문으로 진행
     return answer
-```python
+```
