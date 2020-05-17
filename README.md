@@ -8,6 +8,6 @@
   * 오른쪽으로 n자리만큼 정렬하고, 공백은 지정한 문자로 채움
   * ```python'abc'.rjust(5, '0')    # '00abc'```
 * gcd
-  * ```b if a % b == 0 else gcd(b, a % b)
+  * ```pythonb if a % b == 0 else gcd(b, a % b)```
 * lcm
   * ```pythona * b / gcd(a, b)```
