@@ -19,3 +19,16 @@
   def lcm(a, b):
       return a * b / gcd(a, b)
   ```
+* all
+ * iterable 요소를 and연산 후 bool객체 반환
+ ```python
+ all([1,2,3,4,5])    # True
+ all([0,1,2])    # False
+ ```
+* any
+ * all을 or연산처리
+ ```python
+ any([1,1])    # True
+ any([0,1])    # True
+ any([0,0])    # False
+ ```
