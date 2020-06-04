@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.com/Sean-Parkk/codingdojang.svg)](http://hits.dwyl.com/Sean-Parkk/codingdojang)
+
 # codingdojang
 1일 1코딩 파이썬 코딩 연습하기
 
