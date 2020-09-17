@@ -34,3 +34,11 @@
   any([0,1])    # True
   any([0,0])    # False
   ```
+* itertools 내 순열과 조합
+  ```python
+  from itertools import permutations
+  from itertools import combinations
+  list(map(''.join, permutations('123', 2)))    # ['12', '13', '21', '23', '31', '32']
+  list(map(int, map(''.join, combinations('123', 2))))    # [12, 13, 23]
+  ```
+  
