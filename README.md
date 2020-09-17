@@ -41,4 +41,15 @@
   list(map(''.join, permutations('123', 2)))    # ['12', '13', '21', '23', '31', '32']
   list(map(int, map(''.join, combinations('123', 2))))    # [12, 13, 23]
   ```
+* N진법 구현
+  ```python
+  num = 153
+  digit = 16
+  T = '0123456789ABCDEF'
+  result = ''
   
+  while num:
+      result = T[num%digit] + result
+      num //= digit
+  print(result)    # '99'
+  ```
