@@ -1,7 +1,8 @@
 [![HitCount](http://hits.dwyl.com/Sean-Parkk/codingdojang.svg)](http://hits.dwyl.com/Sean-Parkk/codingdojang)
 
 # codingdojang
-1일 1코딩 파이썬 코딩 연습하기
+1일 1코딩 파이썬 코딩 연습하기  
+(프로그래머스, 백준)
 
 ## 새로 알게 된 것들
 * bin
