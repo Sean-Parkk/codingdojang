@@ -37,8 +37,8 @@
   ```
 * itertools 내 순열과 조합
   ```python
-  from itertools import permutations
-  from itertools import combinations
+  from itertools import permutations    # 순열
+  from itertools import combinations    # 조합
   list(map(''.join, permutations('123', 2)))    # ['12', '13', '21', '23', '31', '32']
   list(map(int, map(''.join, combinations('123', 2))))    # [12, 13, 23]
   ```
